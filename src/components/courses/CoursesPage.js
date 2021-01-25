@@ -20,8 +20,8 @@ class CoursesPage extends React.Component {
   render() {
     return (
       <form type="submit" onSubmit={this.handleSubmit}>
-        <h3>You sell very 5 minutes</h3>
-        <h5>add sale manually</h5>
+        <h2>Accumulating Data</h2>
+        <h5>Add manually</h5>
         <input
           type="text"
           onChange={this.handleChange}
